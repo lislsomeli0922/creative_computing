@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.Header{
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+img{
+	height: 60vw;
+	width:45vw;
+	margin-top: 45px;
+}
+.bodytext{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	margin-top: 40px;
+	font-weight: bold;
+	margin-left: 100px;
+	margin-right: 100px;
+}

@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.flex_container{
+	display:flex;
+	width: 100vw;
+	height:100vw;
+}
+.flex_item{
+	flex:1;
+	margin: 0 auto;
+	background-color: orange;
+
+
+}
+.flex_item1{
+	flex:3.8;
+	height:60%;
+}
+.flex_item1:hover{
+	background-color: yellow;
+	margin-top:1000px;
+	transition: all 10s;
+}
+.flex_item2{
+	flex:1.8;
+	height:80%;
+	margin-top:100px;
+	margin-left:5px;
+}
+.flex_item2:hover{
+	background-color: red;
+	margin-top:1000px;
+	transition: all 10s;
+}
+.flex_item3{
+	flex:1.2;
+	height: 100%;
+	margin-top: 180px;
+	margin-left:5px;
+}
+.flex_item3:hover{
+	background-color: yellow;
+	margin-top:1000px;
+	transition: all 10s;
+}
+.flex_item4{
+	flex: .75;
+	height:80%;
+	margin-top:50px;
+	margin-left:5px; 
+}
+.flex_item4:hover{
+	background-color: red;
+	margin-top:1000px;
+	transition: all 10s;
+}
+.flex_item5{
+	flex:.25;
+	height:60%;
+	margin-bottom:0px;
+	margin-left: 5px;
+}
+.flex_item5:hover{
+	background-color: yellow;
+	margin-top:1000px;
+	transition: all 10s;
+}
+.text{
+	position:absolute;
+	top:300px;
+	left:300px;
+}
+.text1{
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+.text2{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 170px;
+}
